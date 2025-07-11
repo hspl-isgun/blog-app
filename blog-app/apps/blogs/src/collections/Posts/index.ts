@@ -29,7 +29,7 @@ import {
 } from '@payloadcms/plugin-seo/fields'
 import { slugField } from '@/fields/slug'
 import { FAQBlock } from '@/blocks/FaqBlock/config'
-import { GalleryBlock } from '@/blocks/GalleryBlock'
+import { GalleryBlock } from '@/blocks/GridGallery/config'
 
 export const Posts: CollectionConfig<'posts'> = {
   slug: 'posts',

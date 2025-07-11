@@ -9,8 +9,7 @@ import { MediaBlock } from '@/blocks/MediaBlock/Component'
 import { RoadmapBlock } from './RoadMap'
 import { ImageSliderBlock } from './ImageSliderBlock'
 import { FaqBlock } from './FaqBlock/Component'
-import { GalleryBlock } from '@/blocks/GalleryBlock' // ✅ just React component
-
+import { GalleryBlock } from './GridGallery/Component'
 const blockComponents = {
   archive: ArchiveBlock,
   content: ContentBlock,

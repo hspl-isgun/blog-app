@@ -1,9 +1,9 @@
 'use client'
 
 import React from 'react'
-import type { GridGallery } from '../payload-types'
-import { Media } from '../components/Media'
-import RichText from '../components/RichText'
+import type { GridGallery } from '../../payload-types'
+import { Media } from '../../components/Media'
+import RichText from '../../components/RichText'
 
 type Props = {
   gridGallery?: GridGallery

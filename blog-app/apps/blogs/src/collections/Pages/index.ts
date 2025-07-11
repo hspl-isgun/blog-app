@@ -23,7 +23,7 @@ import {
   OverviewField,
   PreviewField,
 } from '@payloadcms/plugin-seo/fields'
-import { GalleryBlock } from '@/blocks/GalleryBlock'
+import { GalleryBlock } from '@/blocks/GridGallery/config'
 export const Pages: CollectionConfig<'pages'> = {
   slug: 'pages',
   access: {

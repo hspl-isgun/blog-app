@@ -16,7 +16,7 @@ export const GalleryBlock: Block = {
     {
       name: 'gridGallery',
       type: 'relationship',
-      relationTo: 'grid-galleries',
+      relationTo:'grid-galleries',
       required: true,
     },
   ],
